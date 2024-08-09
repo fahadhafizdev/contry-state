@@ -16,10 +16,15 @@ class SplashscreenView extends GetView<SplashscreenController> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              Icons.star_rate_sharp,
-              size: 100,
-              color: AppColor.white1,
+            // Icon(
+            //   Icons.star_rate_sharp,
+            //   size: 100,
+            //   color: AppColor.white1,
+            // ),
+            Image.asset(
+              'assets/images/map.png',
+              height: 100,
+              width: 100,
             ),
             20.0.height,
             Text(
